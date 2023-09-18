@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386753380844",
+    "project_id": "vrittimarg",
+    "storage_bucket": "vrittimarg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386753380844:android:2679dea23fcc4d487f40c9",
+        "android_client_info": {
+          "package_name": "com.example.vrittimarg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD5KD596ucjhC9M_EbGHz5j2dCdvBbEm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

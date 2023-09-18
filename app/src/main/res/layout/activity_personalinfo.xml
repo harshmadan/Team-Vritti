@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personalinfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:text="Personal Information"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="160dp"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/ashokalion"
+        android:layout_width="55dp"
+        android:layout_height="94dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/lion"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textColorHint="#FF575757"
+        android:textColor="@color/black"
+        android:background="@drawable/textbackground"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"
+        android:hint="Date Of Birth"
+        android:inputType="numberSigned"
+        android:textColorHint="#FF575757"
+        android:textColor="@color/black"
+        android:background="@drawable/textbackground"
+        android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FF575757"
+        android:textColor="@color/black"
+        android:background="@drawable/textbackground"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:hint="Gender"
+        android:textColorHint="#FF575757"
+        android:textColor="@color/black"
+        android:background="@drawable/textbackground"
+        android:drawableStart="@drawable/ic_baseline_male_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="293dp"
+        android:layout_height="56dp"
+        android:id="@+id/submitbtn"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="#FF1C79E4"
+        />
+
+</RelativeLayout>
